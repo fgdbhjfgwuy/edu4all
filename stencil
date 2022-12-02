@@ -1,0 +1,22 @@
+import { Component, h } from '@stencil/core'
+
+@Component({
+  tag: 'app-rectangle',
+  shadow: true,
+  styleUrls: ['rectangle.css'],
+})
+export class Rectangle {
+  render() {
+    return (
+      <div>
+        <div class="dummy-container">
+          <img
+            src="/playground_assets/rectangle0496-kgl9-900h.png"
+            alt="Rectangle0496"
+            class="rectangle"
+          />
+        </div>
+      </div>
+    )
+  }
+}

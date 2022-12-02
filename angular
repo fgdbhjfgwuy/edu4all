@@ -1,0 +1,10 @@
+import { Component } from '@angular/core'
+
+@Component({
+  selector: 'app-rectangle',
+  templateUrl: 'rectangle.html',
+  styleUrls: ['rectangle.css'],
+})
+export class Rectangle {
+  constructor() {}
+}
